@@ -14,6 +14,9 @@
     <dmn:itemComponent id="_A991155C-A461-4172-967A-8DD9ED7D3803" name="rainForecast" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
+    <dmn:itemComponent id="_1B1C6D54-4B9E-4556-88FD-4DC739DC803C" name="location" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
   </dmn:itemDefinition>
   <dmn:inputData id="_8ECC280E-4341-4C3B-8FD7-5465A652CC86" name="Name">
     <dmn:extensionElements/>
@@ -49,7 +52,7 @@
         </dmn:inputExpression>
       </dmn:input>
       <dmn:input id="_56CE610B-5B13-4326-ACFB-19E77DBBB40B">
-        <dmn:inputExpression typeRef="temperature">
+        <dmn:inputExpression id="_B0273FCE-741F-4C86-B061-DB002C875EF5" typeRef="temperature">
           <dmn:text>Weather.temperature </dmn:text>
         </dmn:inputExpression>
       </dmn:input>
